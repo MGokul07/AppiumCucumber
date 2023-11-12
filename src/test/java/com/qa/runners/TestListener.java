@@ -30,7 +30,7 @@ public class TestListener implements ITestListener{
 	@Override
 	public void onTestFailure(ITestResult result) {
 		try {
-        String screenshotName=Hooks.testCaseName.replace(" ", "")+".png";
+        String screenshotName=Hooks.testCaseName.replace(" ", "");
         AppiumDriver driver = DriverManager.getDriver();
         if(driver!=null)
         {
