@@ -41,8 +41,7 @@ public class ExtentReport {
     {
     	String d = new SimpleDateFormat("E MMM.dd.yyyy.HH.mm.ss").format(new java.util.Date());
         
-        String reportName="Report_"+d.toString().replace(":","_").
-                replace(" ","_")+".html";
+        String reportName="Appium_Report.html";
 
         return reportName;
     }
