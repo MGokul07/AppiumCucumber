@@ -10,4 +10,4 @@ Feature: Login scenarios
     When I enter username as "standard_user"
     And I enter password as "secre123"
     And I login
-    And login should fail with an error "Username a nd password do not match any user in this service."
+    And login should fail with an error "Username and password do not match any user in this service."
